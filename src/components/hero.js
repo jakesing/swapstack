@@ -1,5 +1,6 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from "react";
+import { Header } from "./header";
 import { Popover, Transition } from "@headlessui/react";
 import {
   BookmarkAltIcon,
