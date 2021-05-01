@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/swapstack/static/css/main.6144e7b8.chunk.css",
+    "main.js": "/swapstack/static/js/main.e37ffade.chunk.js",
+    "main.js.map": "/swapstack/static/js/main.e37ffade.chunk.js.map",
+    "runtime-main.js": "/swapstack/static/js/runtime-main.eadc7275.js",
+    "runtime-main.js.map": "/swapstack/static/js/runtime-main.eadc7275.js.map",
+    "static/js/2.d00f06d8.chunk.js": "/swapstack/static/js/2.d00f06d8.chunk.js",
+    "static/js/2.d00f06d8.chunk.js.map": "/swapstack/static/js/2.d00f06d8.chunk.js.map",
+    "static/js/3.b3bf915c.chunk.js": "/swapstack/static/js/3.b3bf915c.chunk.js",
+    "static/js/3.b3bf915c.chunk.js.map": "/swapstack/static/js/3.b3bf915c.chunk.js.map",
+    "index.html": "/swapstack/index.html",
+    "static/css/main.6144e7b8.chunk.css.map": "/swapstack/static/css/main.6144e7b8.chunk.css.map",
+    "static/js/2.d00f06d8.chunk.js.LICENSE.txt": "/swapstack/static/js/2.d00f06d8.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/swapstack/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eadc7275.js",
+    "static/js/2.d00f06d8.chunk.js",
+    "static/css/main.6144e7b8.chunk.css",
+    "static/js/main.e37ffade.chunk.js"
+  ]
+}
