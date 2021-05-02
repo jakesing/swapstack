@@ -1,10 +1,13 @@
-import Header from "../components/header";
-import Hero from "../components/hero";
+import Header from "../components/landing_page/Header";
+import Main from "../components/landing_page/Main";
+import Footer from "../components/landing_page/Footer";
 
 function LandingPage() {
   return (
     <div>
-      <Hero />
+      {/* <Header /> */}
+      <Main />
+      <Footer />
     </div>
   );
 }
