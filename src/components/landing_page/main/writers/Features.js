@@ -1,5 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { InboxIcon, SparklesIcon } from "@heroicons/react/outline";
+import brand_gallery from "../../../../assets/brand_gallery.png";
+import writer_dashboard from "../../../../assets/writer_dashboard.png";
 
 export default function Features() {
   return (
@@ -52,7 +54,7 @@ export default function Features() {
             <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="../../../../assets/brand_gallery.png"
+                src={brand_gallery}
                 alt="Inbox user interface"
               />
             </div>
@@ -95,7 +97,7 @@ export default function Features() {
             <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="../../../../assets/writer_dashboard.png"
+                src={writer_dashboard}
                 alt="Customer profile user interface"
               />
             </div>

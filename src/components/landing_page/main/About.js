@@ -14,11 +14,15 @@
   }
   ```
 */
+
+import jake_mustache from "../../../assets/jake_mustache.jpeg";
+import jake_cupcake from "../../../assets/jake_cupcake.jpeg";
+
 const people = [
   {
     name: "Jake Singer",
     role: "Cofounder",
-    imageUrl: "../../../assets/jake_cupcake.jpeg",
+    imageUrl: jake_cupcake,
     bio:
       "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
     twitterUrl: "https://twitter.com/jakesing_",
@@ -27,7 +31,7 @@ const people = [
   {
     name: "Jake Schonberger",
     role: "Cofounder",
-    imageUrl: "../../../assets/jake_mustache.jpeg",
+    imageUrl: jake_mustache,
     bio:
       "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
     twitterUrl: "https://twitter.com/SchonbergerJake",

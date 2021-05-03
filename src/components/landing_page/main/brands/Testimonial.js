@@ -75,7 +75,7 @@ export default function Testimonial() {
           <div className="hidden lg:block lg:flex-shrink-0">
             <img
               className="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              src="https://uploads-ssl.webflow.com/604a4386ef1eac229c71c824/605e964b9aafd6df72bee521_Chris%20Profile.png"
               alt=""
             />
           </div>
