@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/swapstack/static/css/main.b882a037.chunk.css",
-    "main.js": "/swapstack/static/js/main.e592b9b9.chunk.js",
-    "main.js.map": "/swapstack/static/js/main.e592b9b9.chunk.js.map",
+    "main.js": "/swapstack/static/js/main.cace27b0.chunk.js",
+    "main.js.map": "/swapstack/static/js/main.cace27b0.chunk.js.map",
     "runtime-main.js": "/swapstack/static/js/runtime-main.2d9c1809.js",
     "runtime-main.js.map": "/swapstack/static/js/runtime-main.2d9c1809.js.map",
     "static/js/2.86ac9aaf.chunk.js": "/swapstack/static/js/2.86ac9aaf.chunk.js",
@@ -12,12 +12,16 @@
     "index.html": "/swapstack/index.html",
     "static/css/main.b882a037.chunk.css.map": "/swapstack/static/css/main.b882a037.chunk.css.map",
     "static/js/2.86ac9aaf.chunk.js.LICENSE.txt": "/swapstack/static/js/2.86ac9aaf.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/swapstack/static/media/logo.6ce24c58.svg"
+    "static/media/brand_gallery.364119bb.png": "/swapstack/static/media/brand_gallery.364119bb.png",
+    "static/media/jake_cupcake.8a20d384.jpeg": "/swapstack/static/media/jake_cupcake.8a20d384.jpeg",
+    "static/media/jake_mustache.415d95d7.jpeg": "/swapstack/static/media/jake_mustache.415d95d7.jpeg",
+    "static/media/logo.6ce24c58.svg": "/swapstack/static/media/logo.6ce24c58.svg",
+    "static/media/writer_dashboard.320c5f4b.png": "/swapstack/static/media/writer_dashboard.320c5f4b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2d9c1809.js",
     "static/js/2.86ac9aaf.chunk.js",
     "static/css/main.b882a037.chunk.css",
-    "static/js/main.e592b9b9.chunk.js"
+    "static/js/main.cace27b0.chunk.js"
   ]
 }
