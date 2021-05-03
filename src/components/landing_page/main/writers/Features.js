@@ -3,7 +3,7 @@ import { InboxIcon, SparklesIcon } from "@heroicons/react/outline";
 
 export default function Features() {
   return (
-    <div className="relative bg-white pt-16 pb-32 overflow-hidden">
+    <div className="relative bg-white pt-16 pb-32 overflow-hidden" id="writers">
       <div className="bg-white">
         <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 lg:flex lg:justify-between">
           <div className="max-w-xl">
@@ -39,7 +39,7 @@ export default function Features() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="https://app.swapstack.co/login?key=signup"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Get started
@@ -52,7 +52,7 @@ export default function Features() {
             <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+                src="../../../../assets/brand_gallery.png"
                 alt="Inbox user interface"
               />
             </div>
@@ -82,7 +82,7 @@ export default function Features() {
                 </p>
                 <div className="mt-6">
                   <a
-                    href="#"
+                    href="https://app.swapstack.co/login?key=signup"
                     className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                   >
                     Get started
@@ -95,7 +95,7 @@ export default function Features() {
             <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
+                src="../../../../assets/writer_dashboard.png"
                 alt="Customer profile user interface"
               />
             </div>

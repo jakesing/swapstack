@@ -3,6 +3,7 @@ import Brands from "./main/Brands";
 import Writers from "./main/Writers";
 import FrequentlyAskedQuestions from "./main/FrequentlyAskedQuestions";
 import WallofLove from "./main/WallofLove";
+import About from "./main/About";
 
 function Main() {
   return (
@@ -10,6 +11,7 @@ function Main() {
       <Hero />
       <Brands />
       <Writers />
+      <About />
       <FrequentlyAskedQuestions />
       <WallofLove />
     </div>
