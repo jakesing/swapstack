@@ -7,9 +7,9 @@ import Stats from "./writers/Stats";
 export default function Writers() {
   return (
     <div>
+      <Stats />
       <Features />
       <CalltoAction />
-      <Stats />
       <Logocloud />
       <Testimonial />
     </div>

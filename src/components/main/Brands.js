@@ -7,9 +7,9 @@ import Stats from "./brands/Stats";
 export default function Brands() {
   return (
     <div>
+      <Stats />
       <Features />
       <CalltoAction />
-      <Stats />
       <Logocloud />
       <Testimonial />
     </div>
