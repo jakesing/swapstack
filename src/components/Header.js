@@ -8,11 +8,13 @@ import {
   CheckCircleIcon,
   CursorClickIcon,
   DesktopComputerIcon,
+  EyeIcon,
   GlobeAltIcon,
   InformationCircleIcon,
   MenuIcon,
   NewspaperIcon,
   OfficeBuildingIcon,
+  PencilIcon,
   PhoneIcon,
   PlayIcon,
   ShieldCheckIcon,
@@ -21,21 +23,23 @@ import {
   XIcon,
 } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
-import SwapstackLogo from "../../assets/swapstack_logo.png";
+import SwapstackLogo from "../assets/swapstack_logo.png";
+import { Link, NavLink } from "react-router-dom";
 
+// flyover population options - solutions
 const solutions = [
   {
     name: "Analytics",
     description:
       "Get a better understanding of where your traffic is coming from.",
     href: "#",
-    icon: ChartBarIcon,
+    icon: PencilIcon,
   },
   {
     name: "Engagement",
     description: "Speak directly to your customers in a more meaningful way.",
     href: "#",
-    icon: CursorClickIcon,
+    icon: EyeIcon,
   },
   {
     name: "Security",
@@ -50,11 +54,15 @@ const solutions = [
     icon: ViewGridIcon,
   },
 ];
+
+// flyover population options - solutions CTAs
 const callsToAction = [
   { name: "Watch Demo", href: "#", icon: PlayIcon },
   { name: "View All Products", href: "#", icon: CheckCircleIcon },
   { name: "Contact Sales", href: "#", icon: PhoneIcon },
 ];
+
+// flyover population options - 'more': company
 const company = [
   { name: "About", href: "#", icon: InformationCircleIcon },
   { name: "Customers", href: "#", icon: OfficeBuildingIcon },
@@ -62,12 +70,16 @@ const company = [
   { name: "Careers", href: "#", icon: BriefcaseIcon },
   { name: "Privacy", href: "#", icon: ShieldCheckIcon },
 ];
+
+// flyover population options - 'more': resources
 const resources = [
   { name: "Community", href: "#", icon: UserGroupIcon },
   { name: "Partners", href: "#", icon: GlobeAltIcon },
   { name: "Guides", href: "#", icon: BookmarkAltIcon },
   { name: "Webinars", href: "#", icon: DesktopComputerIcon },
 ];
+
+// flyover population options - 'more': blog posts
 const blogPosts = [
   {
     id: 1,
@@ -93,6 +105,25 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
+const navButtons = [
+  {
+    name: "Writers",
+    to: "/writers",
+  },
+  {
+    name: "Brands",
+    to: "/brands",
+  },
+  {
+    name: "Pricing",
+    to: "/pricing",
+  },
+  {
+    name: "Blog",
+    to: "/blog",
+  },
+];
+
 export default function Example() {
   return (
     <Popover className="relative bg-white">
@@ -105,14 +136,14 @@ export default function Example() {
           <div className="relative z-20">
             <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
               <div>
-                <a href="#" className="flex">
+                <Link to="/" className="flex">
                   <span className="sr-only">Workflow</span>
                   <img
                     className="h-8 w-auto sm:h-10"
                     src={SwapstackLogo}
                     alt=""
                   />
-                </a>
+                </Link>
               </div>
               <div className="-mr-2 -my-2 md:hidden">
                 <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -121,8 +152,11 @@ export default function Example() {
                 </Popover.Button>
               </div>
               <div className="hidden md:flex-1 md:flex md:items-center md:justify-between">
+                {/* The Original Code for the flyover options - commenting and hiding the entire thing! */}
+                {/* Nav links */}
                 <Popover.Group as="nav" className="flex space-x-10">
-                  <Popover>
+                  {/* Solutions */}
+                  {/* <Popover>
                     {({ open }) => (
                       <>
                         <Popover.Button
@@ -224,7 +258,9 @@ export default function Example() {
                   >
                     Docs
                   </a>
+                  More
                   <Popover>
+                  
                     {({ open }) => (
                       <>
                         <Popover.Button
@@ -358,8 +394,17 @@ export default function Example() {
                         </Transition>
                       </>
                     )}
-                  </Popover>
+                  </Popover> */}
+                  {navButtons.map((item) => (
+                    <NavLink
+                      className="text-base font-medium text-gray-500 hover:text-gray-900"
+                      to={item.to}
+                    >
+                      {item.name}
+                    </NavLink>
+                  ))}
                 </Popover.Group>
+                {/* Sign up buttons */}
                 <div className="flex items-center md:ml-12">
                   <a
                     href="#"
@@ -396,13 +441,13 @@ export default function Example() {
               <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                 <div className="pt-5 pb-6 px-5 sm:pb-8">
                   <div className="flex items-center justify-between">
-                    <div>
+                    <Link to="/">
                       <img
                         className="h-8 w-auto"
                         src={SwapstackLogo}
                         alt="Workflow"
                       />
-                    </div>
+                    </Link>
                     <div className="-mr-2">
                       <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span className="sr-only">Close menu</span>
@@ -429,6 +474,14 @@ export default function Example() {
                               {item.name}
                             </div>
                           </a>
+                        ))}
+                        {navButtons.map((item) => (
+                          <NavLink
+                            to={item.to}
+                            className="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50"
+                          >
+                            {item.name}
+                          </NavLink>
                         ))}
                       </div>
                       <div className="mt-8 text-base">

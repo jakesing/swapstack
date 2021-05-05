@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { InboxIcon, SparklesIcon } from "@heroicons/react/outline";
-import brand_gallery from "../../../../assets/brand_gallery.png";
-import writer_dashboard from "../../../../assets/writer_dashboard.png";
+import brand_gallery from "../../../assets/brand_gallery.png";
+import writer_dashboard from "../../../assets/writer_dashboard.png";
 
 export default function Features() {
   return (
