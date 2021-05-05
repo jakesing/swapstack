@@ -8,7 +8,7 @@ import Blog from "./main/blog/blog";
 function Main() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/swapstack" element={<Home />} />
       <Route path="/writers" element={<Writers />} />
       <Route path="/brands" element={<Brands />} />
       <Route path="/pricing" element={<Pricing />} />

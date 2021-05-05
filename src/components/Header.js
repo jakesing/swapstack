@@ -136,7 +136,7 @@ export default function Example() {
           <div className="relative z-20">
             <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-5 sm:px-6 sm:py-4 lg:px-8 md:justify-start md:space-x-10">
               <div>
-                <Link to="/" className="flex">
+                <Link to="/swapstack" className="flex">
                   <span className="sr-only">Workflow</span>
                   <img
                     className="h-8 w-auto sm:h-10"
@@ -441,7 +441,7 @@ export default function Example() {
               <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                 <div className="pt-5 pb-6 px-5 sm:pb-8">
                   <div className="flex items-center justify-between">
-                    <Link to="/">
+                    <Link to="/swapstack">
                       <img
                         className="h-8 w-auto"
                         src={SwapstackLogo}
